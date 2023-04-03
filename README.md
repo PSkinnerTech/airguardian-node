@@ -1,4 +1,4 @@
-#The AirGuardian Node: How to Build a Fully Decentralized Air Quality Monitoring Node
+# The AirGuardian Node: How to Build a Fully Decentralized Air Quality Monitoring Node
 
 ## Introduction
 
