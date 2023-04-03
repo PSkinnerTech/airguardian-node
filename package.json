@@ -1,0 +1,32 @@
+{
+  "name": "airguardian-node",
+  "version": "1.0.0",
+  "description": "A decentralized air quality monitoring device using Raspberry Pi 4, SDS011 sensor, and Streamr network",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PSkinnerTech/airguardian-node.git"
+  },
+  "keywords": [
+    "air-quality",
+    "raspberry-pi",
+    "sds011",
+    "streamr",
+    "decentralized"
+  ],
+  "author": "Patrick Skinner <me@patrickskinner.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PSkinnerTech/airguardian-node/issues"
+  },
+  "homepage": "https://github.com/PSkinnerTech/airguardian-node#readme",
+  "dependencies": {
+    "streamr-client": "^5.2.0",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "mqtt": "^4.2.8"
+  }
+}
