@@ -1,6 +1,9 @@
 # The AirGuardian Node: How to Build a Fully Decentralized Air Quality Monitoring Node
 
-Original Article link: https://blog.patrickskinner.tech/the-airguardian-node-how-to-build-a-fully-decentralized-air-quality-monitoring-node
+![Artboard 1](https://user-images.githubusercontent.com/78289253/229496685-36ed922f-9aa5-4d2e-b4dc-a63ef052c194.png)
+
+
+Tutorial Article: https://blog.patrickskinner.tech/the-airguardian-node-how-to-build-a-fully-decentralized-air-quality-monitoring-node
 
 ## Introduction
 
