@@ -1,5 +1,7 @@
 # The AirGuardian Node: How to Build a Fully Decentralized Air Quality Monitoring Node
 
+Original Article link: https://blog.patrickskinner.tech/the-airguardian-node-how-to-build-a-fully-decentralized-air-quality-monitoring-node
+
 ## Introduction
 
 Air pollution is a growing concern across the globe, affecting the health and well-being of millions of people. As urbanization continues to increase and industrial activities expand, monitoring air quality has become a crucial task for governments, businesses, and individuals alike. To address this challenge, we present the AirGuardian Node, a decentralized air quality monitoring solution that empowers communities to take control of their environment.
