@@ -1,3 +1,5 @@
+import StreamrClient from "streamr-client";
+
 const StreamrClient = require("streamr-client");
 const SDS011Wrapper = require("sds011-wrapper");
 const fs = require("fs");
@@ -6,7 +8,7 @@ require("dotenv").config();
 
 const client = new StreamrClient({
   auth: {
-    privateKey: process.env.ETHEREUM_PrivateKey,
+    privateKey: process.env.ETHEREUM_PRIVATE_KEY,
   },
 });
 
@@ -28,3 +30,30 @@ const publishAirQualityData = async (pm25, pm10) => {
 sensor.on("measure", (pm25, pm10) => {
   publishAirQualityData(pm25, pm10);
 });
+
+import StreamrClient from "streamr-client";
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
+
+const streamr = new StreamrClient({
+  auth: {
+    privateKey: PRIVATE_KEY,
+  },
+});
+
+const stream = await streamr.getOrCreateStream({
+  id: process.env.STREAMR_PRIVATE_KEY / sensor / firehose,
+});
+
+await stream.grantPermissions({
+  user: BrokerNodeAddress,
+  permissions: [StreamPermission.PUBLISH, StreamPermission.SUBSCRIBE],
+});
+
+const mqttClient = mqtt.connect("mqtt://localhost:1883", {
+  username: "x",
+  password: process.env.MQTT_CLIENT_PASSWORD,
+});
+
+const StreamId = process.env.STREAM_ID / sensor / firehose;
+
+await mqttClient.publish(StreamId, JSON.stringify({ data }));
