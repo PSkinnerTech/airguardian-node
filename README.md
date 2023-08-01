@@ -186,5 +186,6 @@ bashCopy codenode index.js
 
 The application will start collecting air quality data from the SDS011 sensor and publish it to the Streamr network.
 
-<img width="1280" alt="Screenshot 2023-04-20 at 4 16 55 PM" src="https://user-images.githubusercontent.com/78289253/233490212-f79431f6-0f21-4998-8175-5b0372ffaedb.png">
+[![Alt text](https://user-images.githubusercontent.com/78289253/233490212-f79431f6-0f21-4998-8175-5b0372ffaedb.png)](https://www.loom.com/share/78b027d5bbe845779888145b7503e525)
+
 
